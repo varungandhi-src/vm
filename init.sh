@@ -7,5 +7,4 @@ sudo rm /usr/share/keyrings/kitware-archive-keyring.gpg
 sudo apt-get update -y
 sudo apt-get install -y zsh kitware-archive-keyring cmake g++ ninja-build
 git clone --depth=1 https://github.com/romkatv/powerlevel10k.git ~/powerlevel10k
-chsh -s "$(which zsh)"
 exec zsh
