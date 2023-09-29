@@ -11,5 +11,7 @@ source ~/powerlevel10k/powerlevel10k.zsh-theme
 [[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
 
 export PATH="/usr/local/cuda/bin:$PATH"
+export HISTFILESIZE=1000000000
+export HISTSIZE=1000000000
 export HISTFILE="$HOME/.zsh_history"
 . "$HOME/.asdf/asdf.sh"
