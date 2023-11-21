@@ -1,5 +1,5 @@
 ```bash
-sudo apt-get install -y zsh git
+sudo apt-get install -y zsh git ripgrep
 git clone https://github.com/varungandhi-src/vm
 mv vm/.p10k.zsh .
 mv vm/.zshrc .
