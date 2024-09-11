@@ -14,4 +14,4 @@ export PATH="/usr/local/cuda/bin:$PATH"
 export HISTFILESIZE=1000000000
 export HISTSIZE=1000000000
 export HISTFILE="$HOME/.zsh_history"
-. "$HOME/.asdf/asdf.sh"
+echo 'eval "$(~/.local/bin/mise activate zsh)"'
